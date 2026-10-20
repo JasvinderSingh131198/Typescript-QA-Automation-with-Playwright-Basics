@@ -1,0 +1,14 @@
+{
+  "name": "ts-qa-automation-basics",
+  "version": "1.0.0",
+  "description": "Short, commented TypeScript programs showing the fundamentals needed for Playwright test automation",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "typescript": "^5.4.0"
+  }
+}
